@@ -1,0 +1,6 @@
+[console_scripts]
+data_node = open_cyber_glove_ros2.data_node:main
+glove_joint_state_dual_publisher = open_cyber_glove_ros2.glove_joint_state_dual_publisher:main
+glove_to_2fingle_gripper = open_cyber_glove_ros2.glove_to_2fingle_gripper:main
+visualizer_node = open_cyber_glove_ros2.visualizer_node:main
+

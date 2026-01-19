@@ -1,0 +1,3 @@
+source;share/open_cyber_glove/hook/pythonpath.ps1
+source;share/open_cyber_glove/hook/pythonpath.dsv
+source;share/open_cyber_glove/hook/pythonpath.sh

@@ -1,0 +1,8 @@
+setup.py
+data_recorder_interfaces/__init__.py
+data_recorder_interfaces.egg-info/PKG-INFO
+data_recorder_interfaces.egg-info/SOURCES.txt
+data_recorder_interfaces.egg-info/dependency_links.txt
+data_recorder_interfaces.egg-info/top_level.txt
+data_recorder_interfaces/srv/__init__.py
+data_recorder_interfaces/srv/_start_recording.py

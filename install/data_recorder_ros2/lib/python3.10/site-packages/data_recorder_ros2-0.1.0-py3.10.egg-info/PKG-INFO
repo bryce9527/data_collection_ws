@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: data-recorder-ros2
+Version: 0.1.0
+Summary: Data recorder nodes ported to ROS 2
+Home-page: UNKNOWN
+Maintainer: bryce
+Maintainer-email: Bryce.lam@hotmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

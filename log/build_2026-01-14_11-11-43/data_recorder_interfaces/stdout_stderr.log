@@ -1,0 +1,147 @@
+[  3%] Built target data_recorder_interfaces__cpp
+[ 12%] Built target data_recorder_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_data_recorder_interfaces
+[ 22%] Built target data_recorder_interfaces__rosidl_typesupport_introspection_cpp
+[ 32%] Built target data_recorder_interfaces__rosidl_typesupport_introspection_c
+[ 41%] Built target data_recorder_interfaces__rosidl_typesupport_cpp
+[ 51%] Built target data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target data_recorder_interfaces__rosidl_typesupport_c
+[ 70%] Built target data_recorder_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target data_recorder_interfaces
+[ 74%] Built target data_recorder_interfaces__py
+[ 80%] Built target data_recorder_interfaces__rosidl_generator_py
+[ 93%] Built target data_recorder_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target data_recorder_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target data_recorder_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing data_recorder_interfaces.egg-info/PKG-INFO
+writing dependency_links to data_recorder_interfaces.egg-info/dependency_links.txt
+writing top-level names to data_recorder_interfaces.egg-info/top_level.txt
+reading manifest file 'data_recorder_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'data_recorder_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_data_recorder_interfaces_egg
+-- Install configuration: ""
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/rosidl_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/start_recording.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__struct.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__functions.c
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__functions.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/library_path.sh
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/library_path.dsv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/start_recording.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__builder.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__struct.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__traits.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.c
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.cpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/pythonpath.sh
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/libdata_recorder_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/__init__.py
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv/_start_recording_s.c
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv/_start_recording.py
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv/__init__.py
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces'...
+Listing '/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv'...
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording.idl
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording.srv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording_Request.msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording_Response.msg
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/package_run_dependencies/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/parent_prefix_path/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/path.sh
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/path.dsv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.bash
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.sh
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.zsh
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.dsv
+-- Installing: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/package.dsv
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/packages/data_recorder_interfaces
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfacesConfig.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfacesConfig-version.cmake
+-- Up-to-date: /home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/package.xml

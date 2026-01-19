@@ -1,0 +1,5 @@
+ros2 run open_cyber_glove_ros2 data_node --ros-args \
+  -p left_port:=/dev/cyberglove_left \
+  -p right_port:=/dev/cyberglove_right \
+  -p model_path:=/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove/model/20250703_110909.onnx \
+  -p inference_mode:=true

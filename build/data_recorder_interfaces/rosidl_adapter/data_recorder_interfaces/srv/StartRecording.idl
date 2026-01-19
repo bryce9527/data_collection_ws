@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from data_recorder_interfaces/srv/StartRecording.srv
+// generated code does not contain a copyright notice
+
+
+module data_recorder_interfaces {
+  module srv {
+    struct StartRecording_Request {
+      string item_type;
+
+      string operator_id;
+    };
+    struct StartRecording_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

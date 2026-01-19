@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/include/**",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

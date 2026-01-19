@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-58750bad03f8e4063e78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "open_cyber_glove_ros2__py",
+					"jsonFile" : "directory-open_cyber_glove_ros2__py-8f7c1a6eea82071eddff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/open_cyber_glove_ros2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "open_cyber_glove_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_open_cyber_glove_ros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_open_cyber_glove_ros2_egg-32c8f9e24d24776698fb.json",
+					"name" : "ament_cmake_python_build_open_cyber_glove_ros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_open_cyber_glove_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_open_cyber_glove_ros2-663b2daa3aca50e5f089.json",
+					"name" : "ament_cmake_python_copy_open_cyber_glove_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2-bc407bb0288de19c6dcf.json",
+					"name" : "open_cyber_glove_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__cpp-ae60178b3d7e0d5b0cd9.json",
+					"name" : "open_cyber_glove_ros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open_cyber_glove_ros2__py::@7d047cf837322bc29381",
+					"jsonFile" : "target-open_cyber_glove_ros2__py-cbbe37dc2e8b6ebf45c1.json",
+					"name" : "open_cyber_glove_ros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_generator_c-2e71daff74ca6de601d7.json",
+					"name" : "open_cyber_glove_ros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_generator_py-521d1850bf725b4b959f.json",
+					"name" : "open_cyber_glove_ros2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_c-c544e31576f37722e666.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_c__pyext-91cb909bdd81962e848e.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_cpp-72166b3e5c6db1d703e3.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_fastrtps_c-feef3688238691c5933d.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_fastrtps_c__pyext-1c4a46db674863dce244.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_fastrtps_cpp-bc34d1880921c73cd0a3.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_introspection_c-dc2fb1b28ff9e24cded5.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_introspection_c__pyext-5dd2b127634b3d084e6e.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2__rosidl_typesupport_introspection_cpp-3876d8259a2d9661d868.json",
+					"name" : "open_cyber_glove_ros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_cyber_glove_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_cyber_glove_ros2_uninstall-d6e458c72be1900a6941.json",
+					"name" : "open_cyber_glove_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7a2fed0e5a6473cd28da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2",
+		"source" : "/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

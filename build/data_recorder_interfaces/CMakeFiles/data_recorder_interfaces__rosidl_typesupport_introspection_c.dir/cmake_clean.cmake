@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c.o"
+  "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c.o.d"
+  "libdata_recorder_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libdata_recorder_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

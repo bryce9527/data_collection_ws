@@ -1,0 +1,19 @@
+[0.607s] Invoking command in '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove': PYTHONPATH=/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/open_cyber_glove build --build-base /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build install --record /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log --single-version-externally-managed
+[0.817s] running egg_info
+[0.818s] writing ../../build/open_cyber_glove/open_cyber_glove.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../build/open_cyber_glove/open_cyber_glove.egg-info/dependency_links.txt
+[0.818s] writing requirements to ../../build/open_cyber_glove/open_cyber_glove.egg-info/requires.txt
+[0.818s] writing top-level names to ../../build/open_cyber_glove/open_cyber_glove.egg-info/top_level.txt
+[0.820s] reading manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+[0.820s] adding license file 'LICENSE'
+[0.820s] writing manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.821s] running build_py
+[0.821s] running install
+[0.821s] running install_lib
+[0.822s] running install_egg_info
+[0.823s] removing '/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove-0.1.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../build/open_cyber_glove/open_cyber_glove.egg-info to /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove-0.1.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.837s] writing list of installed files to '/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log'
+[0.858s] Invoked command in '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove' returned '0': PYTHONPATH=/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/open_cyber_glove build --build-base /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build install --record /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log --single-version-externally-managed

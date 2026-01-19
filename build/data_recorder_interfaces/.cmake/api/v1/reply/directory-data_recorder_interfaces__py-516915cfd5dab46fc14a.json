@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "data_recorder_interfaces__py",
+		"source" : "/home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py"
+	}
+}

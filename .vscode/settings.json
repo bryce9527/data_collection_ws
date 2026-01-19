@@ -1,0 +1,19 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages",
+        "/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

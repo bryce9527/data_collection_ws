@@ -1,0 +1,39 @@
+[0.582s] Invoking command in '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove': PYTHONPATH=/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/open_cyber_glove build --build-base /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build install --record /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log --single-version-externally-managed
+[0.785s] running egg_info
+[0.785s] creating ../../build/open_cyber_glove/open_cyber_glove.egg-info
+[0.785s] writing ../../build/open_cyber_glove/open_cyber_glove.egg-info/PKG-INFO
+[0.785s] writing dependency_links to ../../build/open_cyber_glove/open_cyber_glove.egg-info/dependency_links.txt
+[0.785s] writing requirements to ../../build/open_cyber_glove/open_cyber_glove.egg-info/requires.txt
+[0.785s] writing top-level names to ../../build/open_cyber_glove/open_cyber_glove.egg-info/top_level.txt
+[0.786s] writing manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+[0.788s] reading manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+[0.788s] adding license file 'LICENSE'
+[0.788s] writing manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+[0.788s] running build
+[0.788s] running build_py
+[0.788s] creating /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build
+[0.788s] creating /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib
+[0.789s] creating /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+[0.789s] copying open_cyber_glove/visualizer.py -> /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+[0.789s] copying open_cyber_glove/glove.py -> /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+[0.789s] copying open_cyber_glove/sdk.py -> /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+[0.789s] copying open_cyber_glove/__init__.py -> /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+[0.789s] copying open_cyber_glove/utils.py -> /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+[0.789s] running install
+[0.789s] running install_lib
+[0.790s] creating /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+[0.790s] copying /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/visualizer.py -> /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+[0.790s] copying /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/glove.py -> /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+[0.790s] copying /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/sdk.py -> /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+[0.790s] copying /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/__init__.py -> /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+[0.790s] copying /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/utils.py -> /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+[0.791s] byte-compiling /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/visualizer.py to visualizer.cpython-310.pyc
+[0.792s] byte-compiling /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/glove.py to glove.cpython-310.pyc
+[0.794s] byte-compiling /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/sdk.py to sdk.cpython-310.pyc
+[0.795s] byte-compiling /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/__init__.py to __init__.cpython-310.pyc
+[0.795s] byte-compiling /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/utils.py to utils.cpython-310.pyc
+[0.797s] running install_egg_info
+[0.798s] Copying ../../build/open_cyber_glove/open_cyber_glove.egg-info to /home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove-0.1.0-py3.10.egg-info
+[0.798s] running install_scripts
+[0.812s] writing list of installed files to '/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log'
+[0.830s] Invoked command in '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove' returned '0': PYTHONPATH=/home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryce/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/open_cyber_glove build --build-base /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/build install --record /home/bryce/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log --single-version-externally-managed
