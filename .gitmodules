@@ -1,0 +1,6 @@
+[submodule "src/open_cyber_glove_ros2"]
+	path = src/open_cyber_glove_ros2
+	url = https://github.com/bryce9527/open_cyber_glove_ros2.git
+[submodule "src/open_cyber_glove"]
+	path = src/open_cyber_glove
+	url = https://github.com/bryce9527/open_cyber_glove.git
