@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o"
+  "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o.d"
   "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp.o"
   "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp.o.d"
   "libdata_recorder_interfaces__rosidl_typesupport_cpp.pdb"
   "libdata_recorder_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp"
   "rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp"
 )
 

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/requires.txt
+writing top-level names to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/top_level.txt
+reading manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying data_recorder_ros2/recorder_service.py -> /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+running install
+running install_lib
+copying /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2/recorder_service.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2/recorder_service.py to recorder_service.cpython-310.pyc
+running install_data
+copying launch/recorder.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+running install_egg_info
+removing '/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/data_recorder_ros2/data_recorder_ros2.egg-info to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2-0.1.0-py3.10.egg-info
+running install_scripts
+Installing anheng_scale_node script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+Installing heartbeat_publisher script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+Installing recorder_service script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+writing list of installed files to '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/install.log'

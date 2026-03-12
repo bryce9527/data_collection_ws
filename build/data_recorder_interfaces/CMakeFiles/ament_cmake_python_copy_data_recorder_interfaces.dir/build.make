@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
+CMAKE_SOURCE_DIR = /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+CMAKE_BINARY_DIR = /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
 
 # Utility rule file for ament_cmake_python_copy_data_recorder_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/compiler
 include CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces:
-	/usr/bin/cmake -E copy_directory /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/ament_cmake_python/data_recorder_interfaces/data_recorder_interfaces
+	/usr/bin/cmake -E copy_directory /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/ament_cmake_python/data_recorder_interfaces/data_recorder_interfaces
 
 ament_cmake_python_copy_data_recorder_interfaces: CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces
 ament_cmake_python_copy_data_recorder_interfaces: CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/depend:
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_data_recorder_interfaces.dir/depend
 

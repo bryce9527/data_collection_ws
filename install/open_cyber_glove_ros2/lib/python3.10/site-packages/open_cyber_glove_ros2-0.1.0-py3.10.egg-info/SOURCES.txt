@@ -10,6 +10,8 @@ setup.py
 ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/top_level.txt
 ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/zip-safe
 launch/glove_joint_state_heartbeat_publisher.launch.py
+model/20250703_110909.onnx
+model/hand_model.pkl
 msg/GloveDataMsg.msg
 open_cyber_glove_ros2/__init__.py
 open_cyber_glove_ros2/data_node.py

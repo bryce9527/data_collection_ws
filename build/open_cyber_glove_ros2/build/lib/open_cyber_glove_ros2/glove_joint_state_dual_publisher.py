@@ -8,10 +8,13 @@ from std_msgs.msg import Bool
 from geometry_msgs.msg import PoseArray, Pose, Point
 from open_cyber_glove.sdk import OpenCyberGlove
 from open_cyber_glove.visualizer import HandVisualizer
+from ament_index_python.packages import get_package_share_directory
 
 class GlovePublisher(Node):
     def __init__(self):
         super().__init__('dual_glove_joint_state_publisher')
+
+        model_dir = os.path.join(get_package_share_directory('open_cyber_glove_ros2'), 'model')
 
         # Declare parameters with defaults
         self.declare_parameter('left_port', '/dev/cyberglove_left')
@@ -19,8 +22,10 @@ class GlovePublisher(Node):
         self.declare_parameter('rate_hz', 50.0)
         self.declare_parameter('mode', 'load')
         self.declare_parameter('calib_file', 'glove_calibration.json')
-        self.declare_parameter('hand_model', '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove/model/hand_model.pkl')
-        self.declare_parameter('model_path', '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove/model/20250703_110909.onnx')
+        # self.declare_parameter('hand_model', '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove/model/hand_model.pkl')
+        # self.declare_parameter('model_path', '/home/bryce/ros2_workspace/data_collection_ws/src/open_cyber_glove/model/20250703_110909.onnx')
+        self.declare_parameter('hand_model', os.path.join(model_dir, "hand_model.pkl")) 
+        self.declare_parameter('model_path', os.path.join(model_dir, "20250703_110909.onnx"))
 
         # Get parameter values
         left_port  = self.get_parameter('left_port').value

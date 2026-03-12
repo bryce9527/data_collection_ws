@@ -1,0 +1,27 @@
+[0.435s] Invoking command in '/home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_ros2': PYTHONPATH=/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_recorder_ros2 build --build-base /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build install --record /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/install.log --single-version-externally-managed install_data
+[0.600s] running egg_info
+[0.601s] writing ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/PKG-INFO
+[0.603s] writing dependency_links to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/dependency_links.txt
+[0.603s] writing entry points to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/entry_points.txt
+[0.603s] writing requirements to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/requires.txt
+[0.604s] writing top-level names to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/top_level.txt
+[0.604s] reading manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+[0.604s] reading manifest template 'MANIFEST.in'
+[0.605s] writing manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.606s] running build_py
+[0.607s] copying data_recorder_ros2/recorder_service.py -> /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+[0.607s] running install
+[0.608s] running install_lib
+[0.609s] copying /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2/recorder_service.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+[0.610s] byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2/recorder_service.py to recorder_service.cpython-310.pyc
+[0.614s] running install_data
+[0.614s] running install_egg_info
+[0.616s] removing '/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2-0.1.0-py3.10.egg-info' (and everything under it)
+[0.620s] Copying ../../build/data_recorder_ros2/data_recorder_ros2.egg-info to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2-0.1.0-py3.10.egg-info
+[0.620s] running install_scripts
+[0.634s] Installing anheng_scale_node script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+[0.634s] Installing heartbeat_publisher script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+[0.635s] Installing recorder_service script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+[0.635s] writing list of installed files to '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/install.log'
+[0.653s] Invoked command in '/home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_ros2' returned '0': PYTHONPATH=/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_recorder_ros2 build --build-base /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build install --record /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/install.log --single-version-externally-managed install_data

@@ -5,6 +5,8 @@ import subprocess
 import os
 from std_srvs.srv import Trigger
 from data_recorder_interfaces.srv import StartRecording  # custom ROS2 service
+from ament_index_python.packages import get_package_share_directory
+import os
 
 class RosbagRecorder(Node):
     def __init__(self):
@@ -13,27 +15,22 @@ class RosbagRecorder(Node):
         self.current_file = None
 
         # Declare parameters
-        self.declare_parameter('save_dir', '/tmp/rosbags')
-        self.declare_parameter(
-            'topics',
-            '/glove_left/joint_states',
-            '/glove_right/joint_states',
-            '/d435i/d435i_camera/color/image_raw',
-            '/d435i/d435i_camera/aligned_depth_to_color/image_raw',
-            '/scale/weight'
-        )
+        self.declare_parameter('topics', '')
 
-        self.save_dir = self.get_parameter('save_dir').value
-        self.topics = self.get_parameter('topics').value
+        # Resolve save_dir relative to the package directory
+        package_dir = get_package_share_directory('data_recorder_ros2')
+        self.save_dir = os.path.join(package_dir, 'rosbags')
 
         if not os.path.exists(self.save_dir):
             os.makedirs(self.save_dir)
 
-        # Create services
-        self.create_service(StartRecording, 'start_recording', self.start_recording_cb)
-        self.create_service(Trigger, 'stop_recording', self.stop_recording_cb)
+        self.topics = self.get_parameter('topics').value
 
-        self.get_logger().info("Recorder services ready.")
+        # Create services
+        self.create_service(StartRecording, '/start_recording', self.start_recording_cb)
+        self.create_service(Trigger, '/stop_recording', self.stop_recording_cb)
+
+        self.get_logger().info(f"Recorder services ready. Saving to: {self.save_dir}")
 
     def start_recording_cb(self, request, response):
         if self.record_process is not None:

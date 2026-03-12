@@ -1,0 +1,182 @@
+[0.019s] Invoking command in '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuc/ros2_workspace/data_collection_ws/install/tracker_bridge:/home/nuc/ros2_workspace/data_collection_ws/install/piper_teleop:/home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge:/home/nuc/ros2_workspace/angus_dexhand_system/install/setting_info:/home/nuc/ros2_workspace/angus_dexhand_system/install/matrix_touch_gui:/home/nuc/ros2_workspace/angus_dexhand_system/install/gui_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/graphic_display:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_ros2_sdk:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_mujoco_ros2:/home/nuc/ros2_workspace/angus_dexhand_system/install/glove_to_hand_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/camera_to_hand_control:/home/nuc/ros2_workspace/piper_ros/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces -- -j2 -l2
+[0.144s] [  2%] Built target data_recorder_interfaces__cpp
+[0.174s] [ 12%] Built target data_recorder_interfaces__rosidl_generator_c
+[0.190s] [ 12%] Built target ament_cmake_python_copy_data_recorder_interfaces
+[0.229s] [ 23%] Built target data_recorder_interfaces__rosidl_typesupport_cpp
+[0.231s] [ 33%] Built target data_recorder_interfaces__rosidl_typesupport_fastrtps_c
+[0.266s] [ 43%] Built target data_recorder_interfaces__rosidl_typesupport_introspection_c
+[0.269s] [ 53%] Built target data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.298s] [ 64%] Built target data_recorder_interfaces__rosidl_typesupport_c
+[0.304s] [ 74%] Built target data_recorder_interfaces__rosidl_typesupport_introspection_cpp
+[0.331s] [ 74%] Built target data_recorder_interfaces
+[0.353s] [ 76%] Built target data_recorder_interfaces__py
+[0.398s] [ 84%] Built target data_recorder_interfaces__rosidl_generator_py
+[0.442s] [ 89%] Built target data_recorder_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.485s] [ 94%] Built target data_recorder_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.509s] [100%] Built target data_recorder_interfaces__rosidl_typesupport_c__pyext
+[0.551s] running egg_info
+[0.552s] writing data_recorder_interfaces.egg-info/PKG-INFO
+[0.552s] writing dependency_links to data_recorder_interfaces.egg-info/dependency_links.txt
+[0.552s] writing top-level names to data_recorder_interfaces.egg-info/top_level.txt
+[0.554s] reading manifest file 'data_recorder_interfaces.egg-info/SOURCES.txt'
+[0.555s] writing manifest file 'data_recorder_interfaces.egg-info/SOURCES.txt'
+[0.574s] [100%] Built target ament_cmake_python_build_data_recorder_interfaces_egg
+[0.583s] Invoked command in '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuc/ros2_workspace/data_collection_ws/install/tracker_bridge:/home/nuc/ros2_workspace/data_collection_ws/install/piper_teleop:/home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge:/home/nuc/ros2_workspace/angus_dexhand_system/install/setting_info:/home/nuc/ros2_workspace/angus_dexhand_system/install/matrix_touch_gui:/home/nuc/ros2_workspace/angus_dexhand_system/install/gui_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/graphic_display:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_ros2_sdk:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_mujoco_ros2:/home/nuc/ros2_workspace/angus_dexhand_system/install/glove_to_hand_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/camera_to_hand_control:/home/nuc/ros2_workspace/piper_ros/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces -- -j2 -l2
+[0.597s] Invoking command in '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuc/ros2_workspace/data_collection_ws/install/tracker_bridge:/home/nuc/ros2_workspace/data_collection_ws/install/piper_teleop:/home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge:/home/nuc/ros2_workspace/angus_dexhand_system/install/setting_info:/home/nuc/ros2_workspace/angus_dexhand_system/install/matrix_touch_gui:/home/nuc/ros2_workspace/angus_dexhand_system/install/gui_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/graphic_display:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_ros2_sdk:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_mujoco_ros2:/home/nuc/ros2_workspace/angus_dexhand_system/install/glove_to_hand_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/camera_to_hand_control:/home/nuc/ros2_workspace/piper_ros/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+[0.605s] -- Install configuration: ""
+[0.608s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/rosidl_interfaces/data_recorder_interfaces
+[0.609s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+[0.609s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/start_recording.h
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__struct.h
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__functions.h
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.h
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__functions.c
+[0.611s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+[0.612s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/float32_stamped.h
+[0.612s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.612s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail
+[0.613s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__type_support.h
+[0.613s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__functions.c
+[0.613s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__functions.h
+[0.613s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__struct.h
+[0.613s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/library_path.sh
+[0.613s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/library_path.dsv
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_generator_c.so
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_fastrtps_c.h
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail
+[0.615s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__rosidl_typesupport_fastrtps_c.h
+[0.616s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.616s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+[0.616s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/start_recording.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__builder.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__traits.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__struct.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/float32_stamped.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__type_support.hpp
+[0.617s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__traits.hpp
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__struct.hpp
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__builder.hpp
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_fastrtps_cpp.hpp
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/dds_fastrtps
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.618s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/dds_fastrtps
+[0.619s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.c
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_introspection_c.h
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__rosidl_typesupport_introspection_c.h
+[0.620s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.621s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_introspection_c.so
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_c.so
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_introspection_cpp.hpp
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/srv/detail/start_recording__type_support.cpp
+[0.622s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg
+[0.623s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail
+[0.623s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.623s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/include/data_recorder_interfaces/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp
+[0.624s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.624s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_typesupport_cpp.so
+[0.624s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/pythonpath.sh
+[0.625s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/pythonpath.dsv
+[0.625s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info
+[0.625s] -- Installing: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.628s] -- Installing: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.628s] -- Installing: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.628s] -- Installing: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/__init__.py
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv/__init__.py
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv/_start_recording_s.c
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv/_start_recording.py
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.628s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.629s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/msg
+[0.629s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/msg/__init__.py
+[0.629s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/msg/_float32_stamped.py
+[0.629s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/msg/_float32_stamped_s.c
+[0.629s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/libdata_recorder_interfaces__rosidl_generator_py.so
+[0.653s] Listing '/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces'...
+[0.653s] Listing '/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/msg'...
+[0.653s] Listing '/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/srv'...
+[0.657s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.658s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.660s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/local/lib/python3.10/dist-packages/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.662s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/lib/libdata_recorder_interfaces__rosidl_generator_py.so
+[0.663s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/msg/Float32Stamped.idl
+[0.663s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording.idl
+[0.663s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/msg/Float32Stamped.msg
+[0.663s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording.srv
+[0.663s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording_Request.msg
+[0.664s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/srv/StartRecording_Response.msg
+[0.664s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/package_run_dependencies/data_recorder_interfaces
+[0.664s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/parent_prefix_path/data_recorder_interfaces
+[0.664s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/ament_prefix_path.sh
+[0.664s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/ament_prefix_path.dsv
+[0.664s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/path.sh
+[0.665s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/environment/path.dsv
+[0.665s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.bash
+[0.665s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.sh
+[0.665s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.zsh
+[0.665s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/local_setup.dsv
+[0.665s] -- Installing: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/package.dsv
+[0.666s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/ament_index/resource_index/packages/data_recorder_interfaces
+[0.668s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_cExport.cmake
+[0.668s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.669s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.669s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_cppExport.cmake
+[0.671s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.671s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.672s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.672s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.673s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cExport.cmake
+[0.674s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.674s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.674s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.675s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cppExport.cmake
+[0.675s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.675s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_pyExport.cmake
+[0.675s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/export_data_recorder_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfacesConfig.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/cmake/data_recorder_interfacesConfig-version.cmake
+[0.676s] -- Up-to-date: /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces/share/data_recorder_interfaces/package.xml
+[0.679s] Invoked command in '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuc/ros2_workspace/data_collection_ws/install/tracker_bridge:/home/nuc/ros2_workspace/data_collection_ws/install/piper_teleop:/home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2:/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge:/home/nuc/ros2_workspace/angus_dexhand_system/install/setting_info:/home/nuc/ros2_workspace/angus_dexhand_system/install/matrix_touch_gui:/home/nuc/ros2_workspace/angus_dexhand_system/install/gui_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/graphic_display:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_ros2_sdk:/home/nuc/ros2_workspace/angus_dexhand_system/install/linker_hand_mujoco_ros2:/home/nuc/ros2_workspace/angus_dexhand_system/install/glove_to_hand_control:/home/nuc/ros2_workspace/angus_dexhand_system/install/camera_to_hand_control:/home/nuc/ros2_workspace/piper_ros/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces

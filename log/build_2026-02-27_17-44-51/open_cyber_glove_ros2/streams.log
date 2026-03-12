@@ -1,0 +1,56 @@
+[0.525s] Invoking command in '/home/nuc/ros2_workspace/data_collection_ws/src/open_cyber_glove_ros2': PYTHONPATH=/home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/open_cyber_glove_ros2 build --build-base /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build install --record /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/install.log --single-version-externally-managed install_data
+[0.776s] running egg_info
+[0.777s] creating ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info
+[0.779s] writing ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/top_level.txt
+[0.779s] writing manifest file '../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/SOURCES.txt'
+[0.779s] reading manifest file '../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/SOURCES.txt'
+[0.781s] writing manifest file '../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info/SOURCES.txt'
+[0.781s] running build
+[0.781s] running build_py
+[0.781s] creating /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build
+[0.781s] creating /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib
+[0.781s] creating /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2
+[0.781s] copying open_cyber_glove_ros2/data_node.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2
+[0.781s] copying open_cyber_glove_ros2/__init__.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2
+[0.781s] copying open_cyber_glove_ros2/glove_to_2fingle_gripper.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2
+[0.781s] copying open_cyber_glove_ros2/visualizer_node.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2
+[0.781s] copying open_cyber_glove_ros2/glove_joint_state_dual_publisher.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2
+[0.781s] running install
+[0.782s] running install_lib
+[0.782s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2
+[0.782s] copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2/data_node.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2
+[0.783s] copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2/__init__.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2
+[0.783s] copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2/glove_to_2fingle_gripper.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2
+[0.783s] copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2/visualizer_node.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2
+[0.783s] copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build/lib/open_cyber_glove_ros2/glove_joint_state_dual_publisher.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2
+[0.784s] byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2/data_node.py to data_node.cpython-310.pyc
+[0.786s] byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2/__init__.py to __init__.cpython-310.pyc
+[0.786s] byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2/glove_to_2fingle_gripper.py to glove_to_2fingle_gripper.cpython-310.pyc
+[0.786s] byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2/visualizer_node.py to visualizer_node.cpython-310.pyc
+[0.786s] byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2/glove_joint_state_dual_publisher.py to glove_joint_state_dual_publisher.cpython-310.pyc
+[0.787s] running install_data
+[0.787s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/ament_index
+[0.788s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/ament_index/resource_index
+[0.788s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/ament_index/resource_index/packages
+[0.788s] copying resource/open_cyber_glove_ros2 -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/ament_index/resource_index/packages
+[0.788s] copying package.xml -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2
+[0.788s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/launch
+[0.788s] copying launch/glove_joint_state_heartbeat_publisher.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/launch
+[0.788s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/msg
+[0.788s] copying msg/GloveDataMsg.msg -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/msg
+[0.790s] creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/model
+[0.790s] copying model/hand_model.pkl -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/model
+[0.790s] copying model/20250703_110909.onnx -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/share/open_cyber_glove_ros2/model
+[0.791s] running install_egg_info
+[0.791s] Copying ../../build/open_cyber_glove_ros2/open_cyber_glove_ros2.egg-info to /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages/open_cyber_glove_ros2-0.1.0-py3.10.egg-info
+[0.791s] running install_scripts
+[0.811s] Installing data_node script to /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/open_cyber_glove_ros2
+[0.812s] Installing glove_joint_state_dual_publisher script to /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/open_cyber_glove_ros2
+[0.812s] Installing glove_to_2fingle_gripper script to /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/open_cyber_glove_ros2
+[0.812s] Installing visualizer_node script to /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/open_cyber_glove_ros2
+[0.812s] writing list of installed files to '/home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/install.log'
+[0.845s] Invoked command in '/home/nuc/ros2_workspace/data_collection_ws/src/open_cyber_glove_ros2' returned '0': PYTHONPATH=/home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/open_cyber_glove_ros2 build --build-base /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/build install --record /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove_ros2/install.log --single-version-externally-managed install_data

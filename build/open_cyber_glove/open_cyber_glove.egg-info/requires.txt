@@ -1,7 +1,7 @@
-pyserial
-numpy
 matplotlib
-tqdm
-open3d
+numpy
 onnxruntime
+open3d
+pyserial
 torch
+tqdm

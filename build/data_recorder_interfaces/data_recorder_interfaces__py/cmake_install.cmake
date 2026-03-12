@@ -1,8 +1,8 @@
-# Install script for directory: /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py
+# Install script for directory: /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/bryce/ros2_workspace/data_collection_ws/install/data_recorder_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

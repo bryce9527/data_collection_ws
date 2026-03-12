@@ -56,4 +56,22 @@ def generate_launch_description():
                 )
             )
         ),
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource(
+        #         os.path.join(
+        #             get_package_share_directory('camera_bridge'),
+        #             'launch',
+        #             'usb_camera_bridge.launch.py'
+        #         )
+        #     )
+        # ),
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                os.path.join(
+                    get_package_share_directory('tracker_bridge'),
+                    'launch',
+                    'tracker_bridge.launch.py'
+                )
+            )
+        ),
     ])

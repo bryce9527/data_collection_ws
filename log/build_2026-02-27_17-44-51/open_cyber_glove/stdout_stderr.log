@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/open_cyber_glove/open_cyber_glove.egg-info
+writing ../../build/open_cyber_glove/open_cyber_glove.egg-info/PKG-INFO
+writing dependency_links to ../../build/open_cyber_glove/open_cyber_glove.egg-info/dependency_links.txt
+writing requirements to ../../build/open_cyber_glove/open_cyber_glove.egg-info/requires.txt
+writing top-level names to ../../build/open_cyber_glove/open_cyber_glove.egg-info/top_level.txt
+writing manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+reading manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/open_cyber_glove/open_cyber_glove.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build
+creating /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib
+creating /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+copying open_cyber_glove/__init__.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+copying open_cyber_glove/sdk.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+copying open_cyber_glove/utils.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+copying open_cyber_glove/glove.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+copying open_cyber_glove/visualizer.py -> /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove
+running install
+running install_lib
+creating /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/__init__.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/sdk.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/utils.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/glove.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+copying /home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/build/lib/open_cyber_glove/visualizer.py -> /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/sdk.py to sdk.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/utils.py to utils.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/glove.py to glove.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove/visualizer.py to visualizer.cpython-310.pyc
+running install_egg_info
+Copying ../../build/open_cyber_glove/open_cyber_glove.egg-info to /home/nuc/ros2_workspace/data_collection_ws/install/open_cyber_glove/lib/python3.10/site-packages/open_cyber_glove-0.1.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/nuc/ros2_workspace/data_collection_ws/build/open_cyber_glove/install.log'

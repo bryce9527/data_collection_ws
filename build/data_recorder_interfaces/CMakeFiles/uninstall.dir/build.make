@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
+CMAKE_SOURCE_DIR = /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+CMAKE_BINARY_DIR = /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

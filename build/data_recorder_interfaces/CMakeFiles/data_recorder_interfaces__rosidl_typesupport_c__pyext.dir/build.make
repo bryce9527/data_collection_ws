@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
+CMAKE_SOURCE_DIR = /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+CMAKE_BINARY_DIR = /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/fla
 CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o: CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/flags.make
 CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
 CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o: CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o -MF CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o.d -o CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o -c /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o -MF CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o.d -o CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.o -c /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
 
 CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c > CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c > CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.i
 
 CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c -o CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c -o CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c.s
 
 # Object files for target data_recorder_interfaces__rosidl_typesupport_c__pyext
 data_recorder_interfaces__rosidl_typesupport_c__pyext_OBJECTS = \
@@ -95,13 +95,36 @@ rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: rosidl_generator_py/data_recorder_interfaces/libdata_recorder_interfaces__rosidl_generator_py.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: libdata_recorder_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: libdata_recorder_interfaces__rosidl_generator_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/data_recorder_interfaces/data_recorder_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +136,6 @@ CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/clean:
 .PHONY : CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/clean
 
 CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/depend:
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c__pyext.dir/depend
 

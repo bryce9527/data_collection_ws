@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.o"
+  "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.o.d"
   "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.cpp.o"
   "CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.cpp.o.d"
   "libdata_recorder_interfaces__rosidl_typesupport_fastrtps_c.pdb"
   "libdata_recorder_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.cpp"
 )

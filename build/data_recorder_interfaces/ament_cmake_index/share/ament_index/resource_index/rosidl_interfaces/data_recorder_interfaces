@@ -1,3 +1,5 @@
+msg/Float32Stamped.idl
+msg/Float32Stamped.msg
 srv/StartRecording.idl
 srv/StartRecording.srv
 srv/StartRecording_Request.msg

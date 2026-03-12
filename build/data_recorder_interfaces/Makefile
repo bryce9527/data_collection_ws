@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
+CMAKE_SOURCE_DIR = /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+CMAKE_BINARY_DIR = /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -405,6 +405,30 @@ data_recorder_interfaces__py/fast:
 	$(MAKE) $(MAKESILENT) -f data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/build.make data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/build
 .PHONY : data_recorder_interfaces__py/fast
 
+rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.o: rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.o
+.PHONY : rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.o
+
+# target to build an object file
+rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_c.dir/rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.o
+.PHONY : rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.o
+
+rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.i: rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.i
+.PHONY : rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_c.dir/rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.i
+.PHONY : rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.i
+
+rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.s: rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.s
+.PHONY : rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_c.dir/rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.s
+.PHONY : rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.c.s
+
 rosidl_generator_c/data_recorder_interfaces/srv/detail/start_recording__functions.o: rosidl_generator_c/data_recorder_interfaces/srv/detail/start_recording__functions.c.o
 .PHONY : rosidl_generator_c/data_recorder_interfaces/srv/detail/start_recording__functions.o
 
@@ -501,6 +525,30 @@ rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosi
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.o: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.o
+.PHONY : rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.o
+
+# target to build an object file
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.o
+.PHONY : rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.o
+
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.i: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.i
+.PHONY : rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.i
+.PHONY : rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.i
+
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.s: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.s
+.PHONY : rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.s
+.PHONY : rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c.s
+
 rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.o: rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c.o
 .PHONY : rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.o
 
@@ -524,6 +572,30 @@ rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.s: rosidl_ge
 rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_generator_py.dir/rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c.s
 .PHONY : rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c.s
+
+rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.o: rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o
+
+rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.i: rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i
+
+rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.s: rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s
 
 rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.o: rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.o
@@ -549,6 +621,30 @@ rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.cpp.s
 
+rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.o: rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.o
+
+rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.i: rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.i
+
+rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.s: rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.cpp.s
+
 rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.o: rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.o
 
@@ -572,6 +668,30 @@ rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_suppor
 rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.o: rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.i: rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.s: rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.o: rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.o
@@ -597,6 +717,30 @@ rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recordin
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.o: rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.i: rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.s: rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.o: rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.o
 
@@ -621,6 +765,30 @@ rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.cpp.s
 
+rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.o: rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.o
+
+rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.i: rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.i
+
+rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.s: rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.c.s
+
 rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.o: rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.o
 
@@ -644,6 +812,30 @@ rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_rec
 rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.o: rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.i: rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.s: rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/data_recorder_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.o: rosidl_typesupport_introspection_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.o
@@ -700,6 +892,9 @@ help:
 	@echo "... data_recorder_interfaces__rosidl_typesupport_introspection_c"
 	@echo "... data_recorder_interfaces__rosidl_typesupport_introspection_c__pyext"
 	@echo "... data_recorder_interfaces__rosidl_typesupport_introspection_cpp"
+	@echo "... rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.o"
+	@echo "... rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.i"
+	@echo "... rosidl_generator_c/data_recorder_interfaces/msg/detail/float32_stamped__functions.s"
 	@echo "... rosidl_generator_c/data_recorder_interfaces/srv/detail/start_recording__functions.o"
 	@echo "... rosidl_generator_c/data_recorder_interfaces/srv/detail/start_recording__functions.i"
 	@echo "... rosidl_generator_c/data_recorder_interfaces/srv/detail/start_recording__functions.s"
@@ -712,24 +907,45 @@ help:
 	@echo "... rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.o"
+	@echo "... rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.i"
+	@echo "... rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.s"
 	@echo "... rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.o"
 	@echo "... rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.i"
 	@echo "... rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.s"
+	@echo "... rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.o"
+	@echo "... rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.i"
+	@echo "... rosidl_typesupport_c/data_recorder_interfaces/msg/float32_stamped__type_support.s"
 	@echo "... rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.o"
 	@echo "... rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.i"
 	@echo "... rosidl_typesupport_c/data_recorder_interfaces/srv/start_recording__type_support.s"
+	@echo "... rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.o"
+	@echo "... rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.i"
+	@echo "... rosidl_typesupport_cpp/data_recorder_interfaces/msg/float32_stamped__type_support.s"
 	@echo "... rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.o"
 	@echo "... rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.i"
 	@echo "... rosidl_typesupport_cpp/data_recorder_interfaces/srv/start_recording__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/data_recorder_interfaces/srv/detail/start_recording__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/msg/detail/dds_fastrtps/float32_stamped__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/data_recorder_interfaces/srv/detail/dds_fastrtps/start_recording__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/data_recorder_interfaces/msg/detail/float32_stamped__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/data_recorder_interfaces/srv/detail/start_recording__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.s"

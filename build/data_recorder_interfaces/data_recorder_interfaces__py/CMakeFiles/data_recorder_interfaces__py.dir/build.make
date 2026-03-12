@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
+CMAKE_SOURCE_DIR = /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+CMAKE_BINARY_DIR = /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
 
 # Utility rule file for data_recorder_interfaces__py.
 
@@ -69,8 +69,11 @@ include data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
+data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped.py
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/srv/_start_recording.py
+data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/msg/__init__.py
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/srv/__init__.py
+data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c
 
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
@@ -86,9 +89,42 @@ rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosi
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/data_recorder_interfaces/msg/Float32Stamped.idl
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/data_recorder_interfaces/srv/StartRecording.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Char.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Empty.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Float32.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Float64.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Header.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int16.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int32.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int64.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int8.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/String.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -96,11 +132,20 @@ rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosi
 rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
 
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped.py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped.py
+
 rosidl_generator_py/data_recorder_interfaces/srv/_start_recording.py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/srv/_start_recording.py
 
+rosidl_generator_py/data_recorder_interfaces/msg/__init__.py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/msg/__init__.py
+
 rosidl_generator_py/data_recorder_interfaces/srv/__init__.py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/srv/__init__.py
+
+rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c
 
 rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c
@@ -109,6 +154,9 @@ data_recorder_interfaces__py: data_recorder_interfaces__py/CMakeFiles/data_recor
 data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_c.c
 data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/_data_recorder_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/msg/__init__.py
+data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped.py
+data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/msg/_float32_stamped_s.c
 data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/srv/__init__.py
 data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/srv/_start_recording.py
 data_recorder_interfaces__py: rosidl_generator_py/data_recorder_interfaces/srv/_start_recording_s.c
@@ -120,10 +168,10 @@ data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/build: 
 .PHONY : data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/build
 
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/clean:
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/data_recorder_interfaces__py.dir/cmake_clean.cmake
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/data_recorder_interfaces__py.dir/cmake_clean.cmake
 .PHONY : data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/clean
 
 data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/depend:
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : data_recorder_interfaces__py/CMakeFiles/data_recorder_interfaces__py.dir/depend
 

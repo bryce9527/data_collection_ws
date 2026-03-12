@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
+CMAKE_SOURCE_DIR = /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
+CMAKE_BINARY_DIR = /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces
 
 # Utility rule file for data_recorder_interfaces__cpp.
 
@@ -66,6 +66,11 @@ include CMakeFiles/data_recorder_interfaces__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/data_recorder_interfaces__cpp.dir/progress.make
 
+CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
+CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__builder.hpp
+CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__struct.hpp
+CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__traits.hpp
+CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.hpp
 CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp
 CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__builder.hpp
 CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__struct.hpp
@@ -73,38 +78,91 @@ CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_int
 CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.hpp
 CMakeFiles/data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: rosidl_adapter/data_recorder_interfaces/srv/StartRecording.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_cpp__arguments.json
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: rosidl_adapter/data_recorder_interfaces/msg/Float32Stamped.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: rosidl_adapter/data_recorder_interfaces/srv/StartRecording.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Char.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Empty.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Float32.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Float64.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Header.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int16.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int32.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int64.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int8.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/String.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__builder.hpp: rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp
+rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__builder.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__builder.hpp
+
+rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__struct.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__struct.hpp
+
+rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__traits.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__traits.hpp
+
+rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.hpp
+
+rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp
+
+rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__builder.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__builder.hpp
 
-rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__struct.hpp: rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp
+rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__struct.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__struct.hpp
 
-rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__traits.hpp: rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp
+rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__traits.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__traits.hpp
 
-rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.hpp: rosidl_generator_cpp/data_recorder_interfaces/srv/start_recording.hpp
+rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.hpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__type_support.hpp
 
 data_recorder_interfaces__cpp: CMakeFiles/data_recorder_interfaces__cpp
+data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__builder.hpp
+data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__struct.hpp
+data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__traits.hpp
+data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/detail/float32_stamped__type_support.hpp
+data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/msg/float32_stamped.hpp
 data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__builder.hpp
 data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__struct.hpp
 data_recorder_interfaces__cpp: rosidl_generator_cpp/data_recorder_interfaces/srv/detail/start_recording__traits.hpp
@@ -122,6 +180,6 @@ CMakeFiles/data_recorder_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/data_recorder_interfaces__cpp.dir/clean
 
 CMakeFiles/data_recorder_interfaces__cpp.dir/depend:
-	cd /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/bryce/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/data_recorder_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_interfaces/CMakeFiles/data_recorder_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/data_recorder_interfaces__cpp.dir/depend
 

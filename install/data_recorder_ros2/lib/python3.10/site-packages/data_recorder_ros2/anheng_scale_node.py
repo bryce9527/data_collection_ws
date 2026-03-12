@@ -2,19 +2,24 @@
 import rclpy
 from rclpy.node import Node
 import serial
-from std_msgs.msg import Float32
+from data_recorder_interfaces.msg import Float32Stamped
 
 class AnhengScaleNode(Node):
     def __init__(self):
         super().__init__('anheng_scale_node')
-        self.pub = self.create_publisher(Float32, '/scale/weight', 10)
+
+        # Publishers
+        self.pub_event = self.create_publisher(Float32Stamped, '/scale/weight_event', 10)
+        self.pub_stream = self.create_publisher(Float32Stamped, '/scale/weight_stream', 10)
+
+        # Parameters
         self.declare_parameter('port', '/dev/scale')
         self.declare_parameter('baud', 9600)
         port = self.get_parameter('port').value
         baud = self.get_parameter('baud').value
-        self.get_logger().info('Scale node started, publishing to /scale/weight')
+        self.get_logger().info('Scale node started, publishing to /scale/weight_event and /scale/weight_stream')
 
-        # Explicit serial config to match minicom
+        # Serial config
         self.ser = serial.Serial(
             port,
             baudrate=baud,
@@ -38,37 +43,38 @@ class AnhengScaleNode(Node):
                 if not line:
                     continue
 
-                # Only process stable lines that look like "ST,NT,   120.0 g"
+                # Only process stable lines like "ST,NT,   120.0 g"
                 if line.startswith("ST"):
                     parts = line.split(',')
                     if len(parts) < 3:
-                        self.get_logger().debug(f"Ignoring malformed line: {line}")
                         continue
 
                     weight_field = parts[-1].strip()
                     tokens = weight_field.split()
                     if len(tokens) < 2 or not tokens[0].replace('.', '', 1).isdigit():
-                        self.get_logger().debug(f"Ignoring bad weight field: {line}")
                         continue
 
                     try:
                         weight_val = float(tokens[0])
                     except ValueError:
-                        self.get_logger().debug(f"Failed to parse weight from: {line}")
                         continue
 
-                    # Publish only if value changed
+                    # Build message with timestamp
+                    msg = Float32Stamped()
+                    msg.header.stamp = self.get_clock().now().to_msg()
+                    msg.data = weight_val
+
+                    # Event-based publishing (only when value changes)
                     if weight_val != self.last_val:
-                        msg = Float32()
-                        msg.data = weight_val
-                        self.pub.publish(msg)
+                        self.pub_event.publish(msg)
+                        self.get_logger().info(f"Weight changed: {weight_val}")
                         self.last_val = weight_val
-                        self.get_logger().info(f"Stable Weight: {weight_val}")
+
+                    # Continuous stream publishing (always publish last value)
+                    self.pub_stream.publish(msg)
+
         except Exception as e:
             self.get_logger().warn(f"Exception while reading scale: {e}")
-
-
-
 
 def main(args=None):
     rclpy.init(args=args)

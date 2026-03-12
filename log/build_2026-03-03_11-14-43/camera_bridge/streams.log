@@ -1,0 +1,21 @@
+[0.688s] Invoking command in '/home/nuc/ros2_workspace/data_collection_ws/src/camera_bridge': PYTHONPATH=/home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_bridge build --build-base /home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/build install --record /home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/install.log --single-version-externally-managed install_data
+[0.839s] running egg_info
+[0.841s] writing ../../build/camera_bridge/camera_bridge.egg-info/PKG-INFO
+[0.842s] writing dependency_links to ../../build/camera_bridge/camera_bridge.egg-info/dependency_links.txt
+[0.842s] writing entry points to ../../build/camera_bridge/camera_bridge.egg-info/entry_points.txt
+[0.843s] writing requirements to ../../build/camera_bridge/camera_bridge.egg-info/requires.txt
+[0.843s] writing top-level names to ../../build/camera_bridge/camera_bridge.egg-info/top_level.txt
+[0.844s] reading manifest file '../../build/camera_bridge/camera_bridge.egg-info/SOURCES.txt'
+[0.845s] writing manifest file '../../build/camera_bridge/camera_bridge.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.845s] running build_py
+[0.845s] running install
+[0.846s] running install_lib
+[0.847s] running install_data
+[0.847s] running install_egg_info
+[0.848s] removing '/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge/lib/python3.10/site-packages/camera_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[0.850s] Copying ../../build/camera_bridge/camera_bridge.egg-info to /home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge/lib/python3.10/site-packages/camera_bridge-0.0.0-py3.10.egg-info
+[0.852s] running install_scripts
+[0.869s] Installing camera_receiver script to /home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge/lib/camera_bridge
+[0.870s] writing list of installed files to '/home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/install.log'
+[0.886s] Invoked command in '/home/nuc/ros2_workspace/data_collection_ws/src/camera_bridge' returned '0': PYTHONPATH=/home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nuc/ros2_workspace/data_collection_ws/install/camera_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_bridge build --build-base /home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/build install --record /home/nuc/ros2_workspace/data_collection_ws/build/camera_bridge/install.log --single-version-externally-managed install_data

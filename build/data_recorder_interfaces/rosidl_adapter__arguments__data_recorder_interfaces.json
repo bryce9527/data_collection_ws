@@ -1,6 +1,7 @@
 {
   "package_name": "data_recorder_interfaces",
   "non_idl_tuples": [
-    "/home/bryce/ros2_workspace/data_collection_ws/src/data_recorder_interfaces:srv/StartRecording.srv"
+    "/home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces:msg/Float32Stamped.msg",
+    "/home/nuc/ros2_workspace/data_collection_ws/src/data_recorder_interfaces:srv/StartRecording.srv"
   ]
 }

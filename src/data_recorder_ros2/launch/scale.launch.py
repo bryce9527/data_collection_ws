@@ -20,6 +20,6 @@ def generate_launch_description():
             executable='heartbeat_publisher',
             name='scale_heartbeat_node',
             output='screen',
-            arguments=['scale', '/scale/weight', 'std_msgs/Float32']
+            arguments=['scale', '/scale/weight_stream', 'data_recorder_interfaces/Float32Stamped']
         )
     ])

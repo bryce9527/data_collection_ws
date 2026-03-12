@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/data_recorder_ros2/data_recorder_ros2.egg-info
+writing ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/requires.txt
+writing top-level names to ../../build/data_recorder_ros2/data_recorder_ros2.egg-info/top_level.txt
+writing manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file '../../build/data_recorder_ros2/data_recorder_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build
+creating /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib
+creating /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+copying data_recorder_ros2/__init__.py -> /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+copying data_recorder_ros2/recorder_service.py -> /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+copying data_recorder_ros2/anheng_scale_node.py -> /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+copying data_recorder_ros2/heartbeat_publisher.py -> /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2
+running install
+running install_lib
+creating /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+copying /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2/__init__.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+copying /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2/recorder_service.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+copying /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2/anheng_scale_node.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+copying /home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/build/lib/data_recorder_ros2/heartbeat_publisher.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2/recorder_service.py to recorder_service.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2/anheng_scale_node.py to anheng_scale_node.cpython-310.pyc
+byte-compiling /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2/heartbeat_publisher.py to heartbeat_publisher.cpython-310.pyc
+running install_data
+creating /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/ament_index
+creating /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/ament_index/resource_index
+creating /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/ament_index/resource_index/packages
+copying resource/data_recorder_ros2 -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2
+creating /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+copying launch/scale.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+copying launch/recorder.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+copying launch/data_recorder_bringup.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+copying launch/rs_d435i.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+copying launch/usb_camera.launch.py -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/launch
+creating /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/config
+copying config/camera1.yaml -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/config
+copying config/camera2.yaml -> /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/share/data_recorder_ros2/config
+running install_egg_info
+Copying ../../build/data_recorder_ros2/data_recorder_ros2.egg-info to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/python3.10/site-packages/data_recorder_ros2-0.1.0-py3.10.egg-info
+running install_scripts
+Installing anheng_scale_node script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+Installing heartbeat_publisher script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+Installing recorder_service script to /home/nuc/ros2_workspace/data_collection_ws/install/data_recorder_ros2/lib/data_recorder_ros2
+writing list of installed files to '/home/nuc/ros2_workspace/data_collection_ws/build/data_recorder_ros2/install.log'

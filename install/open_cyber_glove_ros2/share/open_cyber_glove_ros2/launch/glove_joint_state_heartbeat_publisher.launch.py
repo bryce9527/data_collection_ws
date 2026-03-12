@@ -30,7 +30,7 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             'calib_file',
-            default_value='/home/bryce/master_robotics_ws/src/open_cyber_glove/calibration/glove_calibration.json',
+            default_value='/home/nuc/ros2_workspace/data_collection_ws/src/open_cyber_glove/calibration/glove_calibration.json',
             description='Calibration file path'
         ),
 

@@ -78,6 +78,22 @@ def kill_scale():
         return jsonify({"status": "scale stopped"})
     return jsonify({"status": "scale not running"})
 
+# Launch tracker
+@app.route("/launch/tracker", methods=["POST"])
+def launch_tracker():
+    if "tracker" in processes and processes["tracker"].poll() is None:
+        return jsonify({"status": "tracker already launched"})
+    p = subprocess.Popen(["ros2", "launch", "tracker_bridge", "tracker_bridge.launch.py"])
+    processes["tracker"] = p
+    return jsonify({"status": "tracker launched"})
+
+@app.route("/kill/tracker", methods=["POST"])
+def kill_tracker():
+    p = processes.get("tracker")
+    if p and p.poll() is None:
+        p.terminate()
+        return jsonify({"status": "tracker stopped"})
+    return jsonify({"status": "tracker not running"})
 
 # Launch rosbridge
 @app.route("/launch/rosbridge", methods=["POST"])
