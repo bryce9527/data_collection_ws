@@ -1,6 +1,0 @@
-source;share/piper_teleop/hook/pythonpath.ps1
-source;share/piper_teleop/hook/pythonpath.dsv
-source;share/piper_teleop/hook/pythonpath.sh
-source;share/piper_teleop/hook/ament_prefix_path.ps1
-source;share/piper_teleop/hook/ament_prefix_path.dsv
-source;share/piper_teleop/hook/ament_prefix_path.sh

@@ -1,7 +1,0 @@
-matplotlib
-numpy
-onnxruntime
-open3d
-pyserial
-torch
-tqdm
