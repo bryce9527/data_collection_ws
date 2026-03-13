@@ -1,4 +1,0 @@
-srv/StartRecording.idl
-srv/StartRecording.srv
-srv/StartRecording_Request.msg
-srv/StartRecording_Response.msg

@@ -1,5 +1,0 @@
-[console_scripts]
-anheng_scale_node = data_recorder_ros2.anheng_scale_node:main
-heartbeat_publisher = data_recorder_ros2.heartbeat_publisher:main
-recorder_service = data_recorder_ros2.recorder_service:main
-

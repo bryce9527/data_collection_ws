@@ -15,6 +15,11 @@ setup(
             'launch/recorder.launch.py', 
             'launch/data_recorder_bringup.launch.py', 
             'launch/rs_d435i.launch.py',
+            'launch/usb_camera.launch.py',
+        ]),
+        ('share/' + package_name + '/config', [ 
+            'config/camera1.yaml', 
+            'config/camera2.yaml',
         ]),
     ],
     install_requires=['setuptools'],
