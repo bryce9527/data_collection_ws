@@ -37,17 +37,12 @@ class TeleopNode(Node):
             '/vive_tracker/tracker3',
             self.tracker_callback,
             10)
-        self.robot_sub = self.create_subscription(
-            PoseStamped,
-            '/end_pose_stamped',
-            self.robot_callback,
-            10)
 
         self.publisher = self.create_publisher(PosCmd, '/pos_cmd', 10)
 
         # Calibration states
-        self.robot_alignment_quat = None
-        self.robot_home = None
+        self.robot_alignment_quat = [1.0, 0.0, 0.0, 0.0]  # identity quaternion
+        self.robot_home = {"x": 0.0, "y": 0.0, "z": 0.0}  # fixed origin
         self.tracker_home = None
         self.tracker_alignment_quat = None
         self.latest_tracker_msg = None
@@ -58,13 +53,6 @@ class TeleopNode(Node):
         self.offset = {"x": 0.0, "y": 0.2, "z": 0.0}
 
         threading.Thread(target=self.keyboard_listener, daemon=True).start()
-
-    def robot_callback(self, msg):
-        if self.robot_home is None:
-            # Anchor to base origin, not end-effector
-            self.robot_home = {"x": 0.0, "y": 0.0, "z": 0.0}
-            self.robot_alignment_quat = [1.0, 0.0, 0.0, 0.0]  # identity quaternion
-            self.get_logger().info("Robot base set to origin (0,0,0)")
 
 
     def tracker_callback(self, msg):
